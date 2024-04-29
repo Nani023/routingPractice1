@@ -1,0 +1,40 @@
+.list-Item-container {
+  list-style-type: none;
+}
+.blogs-container {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #d3d3d3;
+  margin: 15px;
+  border-radius: 5px;
+  padding: 30px;
+  cursor: pointer;
+}
+.image {
+  height: 300px;
+  width: 400px;
+  margin-bottom: 5px;
+  margin-right: 20px;
+}
+.topic {
+  font-size: 18px;
+  font-family: 'Roboto';
+  color: #8e8e8e;
+  font-weight: 500;
+}
+.title {
+  font-size: 22px;
+  font-family: 'Roboto';
+  color: #000000;
+  font-weight: 500;
+}
+.avatar-image {
+  height: 80px;
+  border-radius: 35px;
+  margin-right: 8px;
+}
+.author-and-name {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
